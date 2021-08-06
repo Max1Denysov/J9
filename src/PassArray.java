@@ -20,9 +20,14 @@ public class PassArray {
             System.out.print(x + " ");
     }
 
+
     public static void main(String args[]){
         test(10);
         test("- Numbers of argument: [",2,3);
         test(true,false,false,true);
+        int n[] = {4,3,2};
+        test(n);
+        test(4);
+
     }
 }
